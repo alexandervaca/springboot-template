@@ -8,13 +8,13 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import ar.com.ifts.app.model.Compra;
-import ar.com.ifts.app.model.CompraProducto;
-import ar.com.ifts.app.model.Producto;
-import ar.com.ifts.app.model.Usuario;
-import ar.com.ifts.app.repository.CompraRepository;
-import ar.com.ifts.app.repository.ProductoRepository;
-import ar.com.ifts.app.repository.UsuarioRepository;
+import ar.com.company.app.model.Compra;
+import ar.com.company.app.model.CompraProducto;
+import ar.com.company.app.model.Producto;
+import ar.com.company.app.model.Usuario;
+import ar.com.company.app.repository.CompraRepository;
+import ar.com.company.app.repository.ProductoRepository;
+import ar.com.company.app.repository.UsuarioRepository;
 
 @SpringBootTest
 public class CompraRepositoryTest {

@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import ar.com.ifts.app.model.Categoria;
-import ar.com.ifts.app.repository.CategoriaRepository;
+import ar.com.company.app.model.Categoria;
+import ar.com.company.app.repository.CategoriaRepository;
 
 @SpringBootTest
 public class CategoriaRepositoryTest {
